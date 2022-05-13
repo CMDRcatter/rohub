@@ -250,6 +250,12 @@ tab:button({
 end})
 
 tab:button({
+    Name = "shittily made pf esp",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fheahdythdr/FloppaMods/main/phantom%20force%20esp.lua"))()
+end})
+
+tab:button({
     Name = "Fate's ESP",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua"))()
@@ -270,7 +276,7 @@ gui:Notification{
 	Callback = function() end
 }
 
-gui:set_status("v1.1b")
+gui:set_status("v1.2b")
 
 gui:Credit{
 	Name = "watermelon with a gun",
