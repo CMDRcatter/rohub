@@ -252,7 +252,7 @@ end})
 tab:button({
     Name = "shittily made pf esp",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fheahdythdr/FloppaMods/main/phantom%20force%20esp.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMDRcatter/catters-esp/main/catters%20esp.lua))()
 end})
 
 tab:button({
@@ -279,6 +279,6 @@ gui:Notification{
 gui:set_status("v1.2b")
 
 gui:Credit{
-	Name = "watermelon with a gun",
+	Name = "catter/phantom",
 	Description = "Took some time to make this script hub.",
 }
